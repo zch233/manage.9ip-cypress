@@ -1,0 +1,14 @@
+{
+  "name": "manage.9ip-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zch233/manage.9ip-cypress.git",
+  "author": "zhangchao <529743595@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "cypress": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^4.9.0"
+  }
+}
