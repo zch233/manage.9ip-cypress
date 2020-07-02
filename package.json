@@ -6,7 +6,7 @@
   "author": "zhangchao <529743595@qq.com>",
   "license": "MIT",
   "scripts": {
-    "cypress": "cypress run"
+    "cypress": "cypress open"
   },
   "dependencies": {
     "cypress": "^4.9.0"
