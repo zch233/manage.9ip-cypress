@@ -22,6 +22,7 @@ describe('测试登陆/注销', () => {
     cy.get('.loginAccount>input')
       .type('13388888888')
     cy.contains('获取验证码').click()
+    cy.contains('重新发送').should('exist')
     cy.get('.loginCaptcha>input')
       .type('111111')
     cy.get('.el-button[type="submit"]').click()
