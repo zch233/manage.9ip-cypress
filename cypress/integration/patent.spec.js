@@ -6,7 +6,7 @@ const isVisible = (elem) => !!(
 )
 describe('专利功能', () => {
   beforeEach(() => {
-    cy.visit('http://192.168.2.218:8080/login')
+    cy.visit('http://192.168.1.4:8080/login')
     cy.get('.loginAccount>input')
       .type('13388888888')
     cy.get('.loginPassword>input')
